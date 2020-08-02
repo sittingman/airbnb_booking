@@ -1,2 +1,7 @@
 
 *.csv
+data/.ipynb_checkpoints/0.obtain_data-checkpoint.ipynb
+.ipynb_checkpoints/0.obtain_data-checkpoint.ipynb
+.ipynb_checkpoints/1.data_expo-checkpoint.ipynb
+.ipynb_checkpoints/3.data_prep-checkpoint.ipynb
+.ipynb_checkpoints/2.feature_select-checkpoint.ipynb
