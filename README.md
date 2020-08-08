@@ -19,7 +19,7 @@
 
 ### Outline of Approach
 
-    #### [Data Cleansing/Wrangling](https://github.com/sittingman/allstate_insure/blob/master/1.data_wrangling.ipynb): 
+   #### [Data Cleansing/Wrangling](https://github.com/sittingman/allstate_insure/blob/master/1.data_wrangling.ipynb): 
     - Understanding the shape of the datasets, check for missing value, and align on data types.
     - Findings: 
         - convert all date/time related columns into datetime
