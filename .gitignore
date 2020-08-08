@@ -10,3 +10,7 @@ data/.ipynb_checkpoints/0.obtain_data-checkpoint.ipynb
 __pycache__/tufte.cpython-37.pyc
 data/et_tuned.sav
 data/rf_tuned.sav
+.ipynb_checkpoints/README-checkpoint.md
+.ipynb_checkpoints/data_dict-checkpoint.ipynb
+.ipynb_checkpoints/tufte-checkpoint.py
+tufte.py
