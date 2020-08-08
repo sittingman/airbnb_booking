@@ -31,10 +31,10 @@
    - Finding variables may influence the likelihood of a new user making a booking
    - Findings: 
        - almost all variables had some influence on the likelihood of booking (under chi-square test)
-       - cont9, cont10, cont12, and cont13 will be dropped as they are highly correlated with existing variables.
-- Target variable will require power transformation during model fitting
-- Given there are 116 categorical variables, traditional visualization is not effective in identifying features importance. We will apply recursive feature elimination (RFE) and Lasso to narrow down features.
-    
+       - drop affiliate provide as that is highly predictive by affiliate channel
+       - for session data, we will assume the last record of the each user action is the last action for the session, and created binary variables based on content on action type and details.
+
+   
 #### Machine Learning: 
 
     
