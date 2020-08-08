@@ -15,14 +15,16 @@
 ### Data Source:
 - [Kaggle](https://www.kaggle.com/c/airbnb-recruiting-new-user-bookings/data)
     - To obtain data, download from the link above, unzip and put all csv files into a folder called "data" OR using the script [HERE](https://github.com/sittingman/airbnb_booking/blob/master/0.obtain_data.ipynb)
-- Data Dictionary: 
-datasets given had 116 category variables and 14 numeric variables, followed by target variable "loss." Allstate did not provide definitions on the attributes; hence data dictionary is not available.
+- [Data Dictionary](https://github.com/sittingman/airbnb_booking/blob/master/data_dict.ipynb)
 
 ### Outline of Approach
 
-#### [Data Cleansing/Wrangling](https://github.com/sittingman/allstate_insure/blob/master/1.data_wrangling.ipynb): 
-Understanding the shape of the datasets, check for missing value, and invalid records.
-- Findings: no missing data. Categories valuables have alphabetical values (i.e., A, B, HK, etc.); continuous variables have values ranging from 0-1. Target variable ('loss') has absolute dollar values
+    #### [Data Cleansing/Wrangling](https://github.com/sittingman/allstate_insure/blob/master/1.data_wrangling.ipynb): 
+    - Understanding the shape of the datasets, check for missing value, and align on data types.
+    - Findings: 
+        - convert all date/time related columns into datetime
+        - deal with missing age and through assigning new variables and binning
+        - filling first_affiliate_tracked missing value with new category value "missing"no missing data. 
 
 #### [Exploratory Analysis](https://github.com/sittingman/allstate_insure/blob/master/2.exploratory.ipynb): 
 Finding variables may correlate with the target variable and eliminate variables that have collinearity. Determine proper transformation based on data structure
