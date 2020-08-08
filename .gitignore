@@ -7,3 +7,6 @@ data/.ipynb_checkpoints/0.obtain_data-checkpoint.ipynb
 .ipynb_checkpoints/2.feature_select-checkpoint.ipynb
 .ipynb_checkpoints/4.ML-checkpoint.ipynb
 .ipynb_checkpoints/5.sumbit-checkpoint.ipynb
+__pycache__/tufte.cpython-37.pyc
+data/et_tuned.sav
+data/rf_tuned.sav
