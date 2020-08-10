@@ -28,17 +28,21 @@
        - create new categorical as needed to summary sparse variables
 
    #### [Exploratory Analysis](https://github.com/sittingman/airbnb_booking/blob/master/1.data_expo.ipynb): 
-   - Finding variables may influence the likelihood of a new user making a booking
+   - Identify variables that may influence the likelihood of a new user making a booking
    - Findings: 
        - almost all variables had some influence on the likelihood of booking (under chi-square test)
        - drop affiliate provide as that is highly predictive by affiliate channel
-       - for session data, we will assume the last record of the each user action is the last action for the session, and created binary variables based on content on action type and details.
+       - for session data, we will assume the last record of the each user action is the last action for the session, and created binary variables based on content on action type and details
 
    
-#### Machine Learning: 
-
+   #### Machine Learning: 
+   - Strategy:
+       - apply feature selection method to narrow down numbers of binary variables from action details and type. Use LassoCV, followed by Recursive Feature Elimination (RFE) using Logistics Regression and Random Forest as regressors.
+       - combine features set as identify from exploratory analysis with the action details binary variables
+       - compare base model performance across five type of classification models based on NDCG score. Pick top three models for hyperparameters tunning
+       - apply deep learning method using Keras 
     
-**Findings:**
+   **Findings:**
 
 **Model performances based on train dataset (test_size =.3, 5-fold cross validation)**
 
