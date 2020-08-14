@@ -40,9 +40,11 @@
        - apply feature selection method to narrow down numbers of binary variables from action details and type. Use LassoCV, followed by Recursive Feature Elimination (RFE) using Logistics Regression and Random Forest as regressors.
        - combine features set as identify from exploratory analysis with the action details binary variables
        - compare base model performance across five type of classification models based on NDCG score. Pick top three models for hyperparameters tunning
-       - apply deep learning method using Keras 
+       - apply deep learning method using Keras to identify potential performance improvement
     
-   **Findings:**
+   - Findings:
+      - tree base models 
+
 
 **Model performances based on train dataset (test_size =.3, 5-fold cross validation)**
 
