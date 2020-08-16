@@ -14,3 +14,7 @@ data/rf_tuned.sav
 .ipynb_checkpoints/data_dict-checkpoint.ipynb
 .ipynb_checkpoints/tufte-checkpoint.py
 tufte.py
+*.sav
+*.tf
+.ipynb_checkpoints/4.ML-deep-checkpoint.ipynb
+.ipynb_checkpoints/4.ML-deep-checkpoint.ipynb
