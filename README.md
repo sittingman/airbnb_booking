@@ -45,26 +45,25 @@
    - Findings:
       - first test on one train test suggested that all models have ndgc scores around 0.8
       - once validated with 4 folds cross validation with roc_auc_ovr scoring, tree base models and light gbm appears to have the best results
-         **Model performances based on train dataset (test_size =.3, 4-fold cross validation)**
-              | Models | roc_auc_ovr |
-              | --- |  --- |
-              |dummy | 0.500|
-              |logistics regression | 0.687 |
-              |extra trees | 0.845 |
-              | random forecast | 0.842 |
-              | gradient boosting | 0.824 |
-              | light gbm| 0.825 | 
-       - Perform hyperparameters tunning using Bayesian optimization with hyperopt, results are as follow
-          | Models | roc_auc_ovr |
+      - Perform hyperparameters tunning using Bayesian optimization with hyperopt, train-set results are as follow:
+          | Models | ndcg on train set |
           | --- |  --- |     
-          |extra trees | 0.845 |
-          | random forecast | 0.842 |
-          | lightgbm| 0.825 | 
+          |extra trees | 0.820 |
+          | random forecast | 0.806 |
+          | lightgbm| 0.824 | 
+       - Perform deep learning using Keras, ndcg score is 0.826
           
+### Performance Summary 
 
-
-### Performance Summary
-
+| Models | Kaggle ndcg |
+| --- |  --- |     
+|extra trees | 0.845 |
+|extra trees (tuned) | 0.845 |
+| random forecast | 0.842 |
+| random forecast (tuned) | 0.842 |
+| lightgbm| 0.825 | 
+| lightgbm tuned | 0.825 | 
+|Deep learning (keras) | 
 
 
 ### Recommendations/next steps
