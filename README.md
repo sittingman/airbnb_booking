@@ -48,7 +48,7 @@
       - Perform hyperparameters tunning using Bayesian optimization with hyperopt, train-set results are as follow:
           | Models | ndcg on train set |
           | --- |  --- |     
-          |extra trees | 0.820 |
+          |extra trees | 0.822 |
           | random forecast | 0.806 |
           | lightgbm| 0.824 | 
        - Perform deep learning using Keras, ndcg score is 0.826
