@@ -44,7 +44,7 @@
     
    - Findings:
       - the first test on one train test suggested that all models have ndgc scores around 0.8
-      - once validated with 4 folds cross-validation with roc_auc_ovr scoring, tree base models and light gbm appears to have the best results
+      - once validated with 4 folds cross-validation, tree base models and light gbm appears to have the best results
       - Perform hyperparameters tunning using Bayesian optimization with hyperopt, train-set results are as follow:
           | Models | ndcg on train set |
           | --- |  --- |     
