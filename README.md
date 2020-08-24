@@ -49,8 +49,8 @@
           | Models | ndcg on train set |
           | --- |  --- |     
           |extra trees | 0.822 |
-          | random forecast | 0.806 |
-          | lightgbm| 0.824 | 
+          |random forecast | 0.806 |
+          |lightgbm| 0.824 | 
        - Perform deep learning using Keras, ndcg score is 0.826
           
 ### Performance Summary 
