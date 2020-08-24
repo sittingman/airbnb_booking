@@ -70,12 +70,14 @@
 ### Recommendations/next steps
 
 Lightgbm (no tunning) performed better than the tree-based models and is recommended as the winning model. 
+ 
+Target variable is skewed toward US (70%). Perhaps analysis could be done at a more micro level within US to make the predictions more precise – need extra data points from Airbnb.
+ 
+Keras deep learning model had a slight improvement over the lightgbm with a rather simple set up of one hidden layer. This suggests a further improvement in ndcg is possible should clients preferred to investigate further. However, the computation will get expensive. 
+ 
+More features could be generated under the session activities data since this study only considered the last action details. Robust evaluation is needed to determine what features to choose, as the dataset could become complex and result in an overfitting problem.
 
-Keras deep learning model had a slight improvement over the lightgbm with a rather simple set up of one hidden layer. This suggests further improvement in ndcg is possible should clients preferred to investigate further. However, the computation will get expensive. 
 
-More features could potentially be generated under the session activities data since this study only considered the last action details. Robust evaluation is needed to determine what features to choose, as the dataset could become complex and result in an overfitting problem.
+[Capstone Report](https://github.com/sittingman/airbnb_booking/blob/master/Capstone%20Report_airbnb.pdf)
 
-
-[Capstone Report]
-
-[Presentation Slides]
+[Presentation Slides](https://github.com/sittingman/airbnb_booking/blob/master/airbnb_presentation.pdf)
