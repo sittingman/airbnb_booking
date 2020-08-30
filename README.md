@@ -35,12 +35,12 @@
        - for "session" data, we will assume the last record of each user action is the last data row for each user id, and created binary variables based on content on action type and details
 
    
-   #### Machine Learning: 
+   #### [Machine Learning](https://github.com/sittingman/airbnb_booking/blob/master/4.ML-clf.ipynb): 
    - Strategy:
        - apply feature selection method to narrow down numbers of binary variables from action details and type. Use LassoCV, followed by Recursive Feature Elimination (RFE) using Logistics Regression and Random Forest as regressors.
        - combine features set as identify from exploratory analysis with the action details binary variables
        - compare base model performance across five types of classification models based on NDCG score. Pick top three models for hyperparameters tunning
-       - apply deep learning method using Keras to identify potential performance improvement
+       - apply [deep learning method](https://github.com/sittingman/airbnb_booking/blob/master/4.ML-deep.ipynb) using Keras to identify potential performance improvement
     
    - Findings:
       - the first test on one train test suggested that all models have ndgc scores around 0.8
