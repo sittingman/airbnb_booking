@@ -3,7 +3,7 @@
 [Airbnb](www.allstate.com) is one of the world’s largest marketplace for unique, authentic places to stay and things to do, offering over 7 million accommodations and 50,000 handcrafted activities, all powered by local hosts. An economic empowerment engine, Airbnb has helped millions of hospitality entrepreneurs monetize their spaces and passions while keeping the financial benefits of tourism in their communities. With more than three-quarters of a billion guest arrivals to date, and accessible in 62 languages across 220+ countries and regions, Airbnb promotes people-to-people connection, community, and trust.
 
 ### Objective
-- Predict in which country a new user will make his or her first booking. The evaluation metric is NDCG (Normalized discounted cumulative gain) at k = 5. In other words, making a maximum of 5 predictions on the country of the first booking at the used id level
+- Predict in which country a new user will make his or her first booking. The evaluation metric is NDCG (Normalized discounted cumulative gain) at k = 5. In other words, making a maximum of 5 predictions on the country of the first booking at the used id level. NDCG is often used to measure the effectiveness of web search engine It measures the usefulness, or gain, of the search result based on its position within the result.
 
 ### Clients & Impacts:
 
